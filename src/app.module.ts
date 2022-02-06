@@ -7,7 +7,7 @@ import { ProductsModel } from './products/products.module';
 @Module({
   imports: [
     ProductsModel, 
-    MongooseModule.forRoot(`mongodb+srv://cseltol:cseltol1337@cluster0.6rrlv.mongodb.net/productsdb?retryWrites=true&w=majority`)
+    MongooseModule.forRoot(`mongodb+srv://`)
   ],
   controllers: [AppController],
   providers: [AppService],
